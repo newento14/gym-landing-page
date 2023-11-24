@@ -6,7 +6,7 @@ import {CgProfile} from "react-icons/cg";
 import Headroom from "react-headroom";
 import {FaPlus} from "react-icons/fa";
 import {motion} from "framer-motion";
-import {MainLogo} from "../../public";
+import {MainLogo} from "../../../public";
 
 
 const Header = () => {
