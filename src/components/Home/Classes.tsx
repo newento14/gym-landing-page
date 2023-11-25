@@ -123,7 +123,7 @@ const Classes = () => {
           </div>
         </div>
       </div>
-      <div className="relative mt-12 mb-12 max-[950px]:bg-[#ff003c] ">
+      <div className="relative mt-12 max-[950px]:bg-[#ff003c] ">
         <Image className="w-full relative z-10 h-[200px] object-cover max-[950px]:hidden" src={CtaBG} alt={'bg'} />
         <div className="py-4 absolute left-0 right-60 m-auto top-0 bottom-0 h-fit z-50 flex justify-center items-center text-white gap-x-16 max-[950px]:static max-[950px]:flex-col gap-y-7 max-[950px]:text-center">
           <p className="text-2xl font-bold max-w-[400px]">We Are Always Providing Best Fitness Service For You</p>

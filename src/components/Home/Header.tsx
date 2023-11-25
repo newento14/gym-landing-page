@@ -22,7 +22,7 @@ const Header = () => {
   ]
 
   return (
-    <Headroom className="w-[100vw] relative z-50">
+    <Headroom className="w-[100vw] relative z-[100]">
       <nav
         className="flex bg-black h-[80px] justify-between items-center p-12 text-white/80 font-semibold text-[17px] w-[100vw]">
         <div className="flex-1">
