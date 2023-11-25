@@ -12,8 +12,10 @@ const Classes = () => {
         <p className="absolute w-fit z-10 top-[20%] right-0 left-0 ml-auto mr-auto">OUR FEATURED CLASS</p>
       </div>
       <p className="font-bold text-3xl text-center">We Are Offering Best Flexible Classes</p>
-      <div className="grid grid-cols-4 grid-rows-2 gap-4 max-[950px]:flex max-[950px]:flex-col max-[950px]:items-center">
-        <div className="col-start-1 col-end-3 bg-fuchsia-500 max-w-[616px] w-full h-[300px] relative group/item cursor-pointer max-[950px]:max-w-[700px]">
+      <div
+        className="grid grid-cols-4 grid-rows-2 gap-4 max-[950px]:flex max-[950px]:flex-col max-[950px]:items-center">
+        <div
+          className="col-start-1 col-end-3 bg-fuchsia-500 max-w-[616px] w-full h-[300px] relative group/item cursor-pointer max-[950px]:max-w-[700px]">
           <div className="h-full overflow-hidden">
             <Image
               className="relative z-10 group-hover/item:scale-125 transition-all ease-in duration-[.4s] h-full object-cover grayscale group-hover/item:grayscale-0"
@@ -30,9 +32,6 @@ const Classes = () => {
             </div>
           </div>
         </div>
-
-
-
         <div className="max-w-[300px] w-full h-[300px] relative group/item cursor-pointer max-[950px]:max-w-[700px]">
           <div className="h-full overflow-hidden">
             <Image
@@ -50,7 +49,6 @@ const Classes = () => {
             </div>
           </div>
         </div>
-
         <div className="max-w-[300px] w-full h-[300px] relative group/item cursor-pointer max-[950px]:max-w-[700px]">
           <div className="h-full overflow-hidden">
             <Image
@@ -68,11 +66,6 @@ const Classes = () => {
             </div>
           </div>
         </div>
-
-
-
-
-
         <div className="max-w-[300px] w-full h-[300px] relative group/item cursor-pointer max-[950px]:max-w-[700px]">
           <div className="h-full overflow-hidden">
             <Image
@@ -90,9 +83,6 @@ const Classes = () => {
             </div>
           </div>
         </div>
-
-
-
         <div className="max-w-[300px] w-full h-[300px] relative group/item cursor-pointer max-[950px]:max-w-[700px]">
           <div className="h-full overflow-hidden">
             <Image
@@ -110,8 +100,8 @@ const Classes = () => {
             </div>
           </div>
         </div>
-
-        <div className="col-start-3 col-end-5 max-w-[616px] w-full h-[300px] relative group/item cursor-pointer max-[950px]:max-w-[700px]">
+        <div
+          className="col-start-3 col-end-5 max-w-[616px] w-full h-[300px] relative group/item cursor-pointer max-[950px]:max-w-[700px]">
           <div className="h-full overflow-hidden">
             <Image
               className="relative z-[6] group-hover/item:scale-125 transition-all ease-in duration-[.4s] h-full object-cover grayscale group-hover/item:grayscale-0"
@@ -128,9 +118,6 @@ const Classes = () => {
             </div>
           </div>
         </div>
-
-
-
       </div>
     </div>
   );
