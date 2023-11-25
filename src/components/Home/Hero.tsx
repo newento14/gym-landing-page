@@ -18,10 +18,12 @@ const Hero = () => {
         </div>
         <p className="text-6xl"><span className="font-bold text-white">MAKE YOUR BODY</span><br /> FIT & PERFECT</p>
         <Link href={'/classes'}>
-          <div className="group/button flex relative font-bold items-center bg-white text-black px-7 py-3 gap-x-1">
+          <div
+            className="group/button flex relative z-10 font-bold items-center bg-white text-black px-7 py-3 gap-x-1 mt-8">
             OUR CLASSES
-            <IoArrowForward color={'red'} size={18} />
-            <div className="absolute -z-10 border-white border-[1px] w-full h-full left-[10%] -top-[30%] group-hover/button:left-0 group-hover/button:top-0 transition-all duration-500" />
+            <IoArrowForward color={'red'} size={18}/>
+            <div
+              className="absolute z-[9] border-[#3f3f3f] border-[1px] w-full h-full left-[10%] -top-[30%]  group-hover/button:left-0 group-hover/button:top-0 transition-all duration-500"/>
           </div>
         </Link>
       </div>

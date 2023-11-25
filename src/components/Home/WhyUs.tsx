@@ -8,7 +8,7 @@ import Link from "next/link";
 
 const WhyUs = () => {
   return (
-    <div className="bg-[#171717] text-white/70 flex justify-center items-center py-12 max-[950px]:flex-col">
+    <div className="bg-[#171717] text-white/70 flex justify-center items-center pt-36 -mt-24 py-12 max-[950px]:flex-col">
       <div className="flex relative justify-center items-center flex-1">
         <div className="relative w-fit h-fit m-12">
           <Image className="relative" src={MainImage} alt={'main image'}/>

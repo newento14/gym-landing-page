@@ -18,7 +18,7 @@ import Link from "next/link";
 
 const HeroBlocks = () => {
   return (
-    <div className="bg-[url('../../public/background1.jpg')] py-8">
+    <div className="py-8">
       <div
         className="flex flex-wrap gap-x-8 gap-y-8 justify-center items-center -mt-[100px]">
         <div
