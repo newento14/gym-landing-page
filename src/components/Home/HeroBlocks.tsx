@@ -17,7 +17,7 @@ import Link from "next/link";
 
 const HeroBlocks = () => {
   return (
-    <div className="bg-[url('../../public/background1.jpg')]">
+    <div className="bg-[url('../../public/background1.jpg')] py-8">
       <div
         className="flex flex-wrap gap-x-8 gap-y-8 justify-center items-center -mt-[100px]">
         <div
@@ -44,7 +44,7 @@ const HeroBlocks = () => {
       </div>
       <div className="flex justify-center items-center mt-[6rem]">
         <div className="flex max-w-[1026px]">
-          <div className="flex flex-1 flex-col justify-center items-start h-[600px] gap-y-6 max-[1000px]:px-8">
+          <div className="flex flex-1 flex-col justify-center items-start h-[600px] gap-y-6 max-[1000px]:px-8 max-[1000px]:items-center">
             <div className="relative w-fit h-fit text-white font-semibold">
               <TitleBackground color={'#ff003c'}/>
               <p className="absolute w-fit z-10 top-[20%] right-0 left-0 ml-auto mr-auto">WHO WE ARE</p>

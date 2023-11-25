@@ -1,0 +1,29 @@
+.item {
+
+}
+
+.item:before {
+    display: block;
+    position: absolute;
+    transform: scale(.65);
+    transition: all .4s;
+    width: 50%;
+    z-index: 6;
+    bottom: 45%;
+    background-color: #641711;
+    left: -25px;
+}
+
+.item:after {
+    background-color: hsla(0,0%,100%,.3);
+    border-radius: 0 50px 50px 0;
+    bottom: 50%;
+    content: "";
+    height: 64px;
+    left: -49px;
+    position: absolute;
+    transform: rotate(30deg);
+    transition: all .4s;
+    width: 140px;
+    z-index: 5;
+}

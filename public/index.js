@@ -27,5 +27,5 @@ export {
   Text,
   WeightLifter,
   Equipment,
-  Gym
+  Gym,
 }
