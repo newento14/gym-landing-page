@@ -12,7 +12,7 @@ const Testimonials = () => {
         <TitleBackground color={'#ff003c'} classes={"scale-110"}/>
         <p className="absolute w-fit z-10 top-[20%] right-0 left-0 ml-auto mr-auto">TESTIMONIALS</p>
       </div>
-      <div className="border-[8px] border-[#efefef] p-8 max-w-[1000px] max-h-fit mt-16">
+      <div className="border-[8px] border-[#efefef] p-8 max-w-[1000px] max-h-fit mt-16 max-[950px]:mt-0">
         <div className="flex justify-end items-center relative bg-black w-full h-full p-5">
           <Image className="absolute w-[335px] bottom-0 left-0 rounded-tr-[200px] object-cover max-[950px]:hidden" src={TestimonialsImage}
                  alt={'Testimonials image'}/>

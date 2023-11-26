@@ -5,6 +5,8 @@ import WhyUs from "@/components/Home/WhyUs";
 import Trainers from "@/components/Home/Trainers";
 import Testimonials from "@/components/Home/Testimonials";
 import Bmi from "@/components/Home/Bmi";
+import Pricing from "@/components/Home/Pricing";
+import Footer from "@/components/Home/Footer";
 
 export default function Home() {
   return (
@@ -16,6 +18,8 @@ export default function Home() {
       <Trainers />
       <Testimonials />
       <Bmi />
+      <Pricing />
+      <Footer />
     </main>
   )
 }
