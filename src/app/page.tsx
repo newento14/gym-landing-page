@@ -3,6 +3,7 @@ import HeroBlocks from "@/components/Home/HeroBlocks";
 import Classes from "@/components/Home/Classes";
 import WhyUs from "@/components/Home/WhyUs";
 import Trainers from "@/components/Home/Trainers";
+import Testimonials from "@/components/Home/Testimonials";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <Classes />
       <WhyUs />
       <Trainers />
+      <Testimonials />
     </main>
   )
 }
