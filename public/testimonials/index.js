@@ -5,6 +5,7 @@ import Image2 from './2.png'
 import Image3 from './3.png'
 import Image4 from './4.png'
 import Image5 from './5.png'
+import BmiBG from './bmi-bg.jpg'
 
 export {
   TestimonialsImage,
@@ -13,5 +14,6 @@ export {
   Image2,
   Image3,
   Image4,
-  Image5
+  Image5,
+  BmiBG
 }
