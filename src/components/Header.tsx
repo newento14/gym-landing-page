@@ -7,17 +7,15 @@ import Headroom from "react-headroom";
 import {FaPlus} from "react-icons/fa";
 import {AnimatePresence, motion} from "framer-motion";
 import {MainLogo} from "../../public";
-import Navbar from "@/components/Home/Navbar";
-import NavbarMobile from "@/components/Home/NavbarMobile";
+import Navbar from "@/components/Navbar";
+import NavbarMobile from "@/components/NavbarMobile";
 import { CiMenuFries } from "react-icons/ci";
 
 
 const links = [
   {name: 'Home', link: '/'},
   {name: 'About', link: '/about'},
-  {name: 'Gallery', link: '/gallery'},
   {name: 'Schedule', link: '/schedule'},
-  {name: 'Blog', link: '/blog'},
   {name: 'Pricing', link: '/pricing'},
   {name: 'Classes', link: '/classes'},
   {name: 'Contact', link: '/contact'},

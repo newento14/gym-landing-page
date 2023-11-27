@@ -19,7 +19,6 @@ const style = {
 const links = [
   {name: 'Home', link: '/'},
   {name: 'About', link: '/about'},
-  {name: 'Gallery', link: '/gallery'},
   {name: 'Schedule', link: '/schedule'},
   {name: 'Pricing', link: '/pricing'},
   {name: 'Classes', link: '/classes'},
