@@ -1,9 +1,10 @@
 import type {Metadata} from 'next'
 import './globals.css'
-import Header from "@/components/Home/Header";
-import { Montserrat } from 'next/font/google'
+import Header from "@/components/Header";
+import {Montserrat} from 'next/font/google'
+import Footer from "@/components/Footer";
 
-const montserrat = Montserrat({ subsets: ["latin"] });
+const montserrat = Montserrat({subsets: ["latin"]});
 
 
 export const metadata: Metadata = {
@@ -21,6 +22,7 @@ export default function RootLayout({
     <body className={montserrat.className}>
     <Header/>
     {children}
+    <Footer/>
     </body>
     </html>
   )

@@ -1,14 +1,15 @@
 import Image from "next/image";
-import {MainLogo} from "../../../public";
+import {MainLogoBlack} from "../../public";
 import {FaFacebookF, FaInstagram, FaTwitter, FaYoutube} from "react-icons/fa";
 import React from "react";
 
 const Footer = () => {
   return (
     <div className="flex justify-center items-center w-full h-fit">
-      <div className="flex w-fit h-fit gap-x-36 p-16 max-[1100px]:gap-x-24 max-[1000px]:gap-x-6 max-[1000px]:px-2 max-[800px]:flex-col max-[800px]:gap-y-12 max-[800px]:justify-center max-[800px]:items-start">
+      <div
+        className="flex w-fit h-fit gap-x-36 p-16 max-[1100px]:gap-x-24 max-[1000px]:gap-x-6 max-[1000px]:px-2 max-[800px]:flex-col max-[800px]:gap-y-12 max-[800px]:justify-center max-[800px]:items-start">
         <div className="flex flex-col max-w-[350px] text-black/70 text-[15px]">
-          <Image className="mb-4" src={MainLogo} alt={'Gymate logo'}/>
+          <Image className="mb-4" src={MainLogoBlack} alt={'Gymate logo'}/>
           <p className="">Take your health and body to the next level with our comprehensive program designed to help
             you reach your
             fitness goals.</p>

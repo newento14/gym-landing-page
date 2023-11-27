@@ -1,4 +1,5 @@
 import MainLogo from './main-logo.svg';
+import MainLogoBlack from './main-logo-black.svg';
 import HeroImage from './hero.png'
 import Progression from './progression.png'
 import Workout from './workout.png'
@@ -15,6 +16,7 @@ import Gym from './gym.png'
 
 export {
   MainLogo,
+  MainLogoBlack,
   HeroImage,
   Progression,
   Workout,

@@ -6,7 +6,7 @@ import {CgProfile} from "react-icons/cg";
 import Headroom from "react-headroom";
 import {FaPlus} from "react-icons/fa";
 import {AnimatePresence, motion} from "framer-motion";
-import {MainLogo} from "../../../public";
+import {MainLogo} from "../../public";
 import Navbar from "@/components/Home/Navbar";
 import NavbarMobile from "@/components/Home/NavbarMobile";
 import { CiMenuFries } from "react-icons/ci";
@@ -55,19 +55,19 @@ const Header = () => {
     <Headroom className="w-[100vw] relative z-[100]">
       <nav
         className="flex bg-black h-[80px] justify-between items-center p-12 text-white/80 font-semibold text-[17px] w-[100vw]">
-        <div className="flex-1 max-w-[200px]">
-          <Link href={'/'}>
-            <Image src={MainLogo} alt={'logo'}/>
+        <div className="flex-1">
+          <Link href={'/'} className="w-fit">
+            <Image className="w-fit" src={MainLogo} alt={'logo'}/>
           </Link>
         </div>
-        {windowDimensions.innerWidth > 1200 && <Navbar/>}
+        {windowDimensions.innerWidth > 1100 && <Navbar/>}
         <div className="flex-1 flex items-center justify-end gap-x-4">
           <Link href={'/login'}>
             <div className="flex justify-start items-center hover:text-red-600 transition-all duration-500">
               <CgProfile size={30}/>
             </div>
           </Link>
-          {windowDimensions.innerWidth > 1200 && windowDimensions.innerWidth !== 0 ? (<Link href={'/contact'}>
+          {windowDimensions.innerWidth > 1100 && windowDimensions.innerWidth !== 0 ? (<Link href={'/contact'}>
             <div className="flex justify-start items-center p-[5px] w-fit border-[#5b5b5b] border-2 rounded-md">
               <motion.div
                 whileHover={{rotate: 180}}
