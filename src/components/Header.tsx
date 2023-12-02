@@ -9,7 +9,7 @@ import {AnimatePresence, motion} from "framer-motion";
 import {MainLogo} from "../../public";
 import Navbar from "@/components/Navbar";
 import NavbarMobile from "@/components/NavbarMobile";
-import { CiMenuFries } from "react-icons/ci";
+import {CiMenuFries} from "react-icons/ci";
 
 
 const links = [
@@ -21,34 +21,9 @@ const links = [
   {name: 'Contact', link: '/contact'},
 ]
 
-const isClientSide = () => typeof window !== 'undefined';
-
-const getWindowSize = () => {
-  if (isClientSide()) {
-    const {innerWidth, innerHeight} = window;
-    return {innerWidth, innerHeight};
-  } else {
-    return {innerWidth: 0, innerHeight: 0};
-  }
-};
-
 const Header = () => {
-  const [windowDimensions, setWindowDimensions] = useState({innerWidth: 0, innerHeight: 0});
   const [visible, setVisible] = useState(false);
-
-
-  useEffect(() => {
-    setWindowDimensions(getWindowSize())
-
-    function handleResize(e: Event) {
-      // @ts-ignore
-      setWindowDimensions({innerHeight: e.target.innerHeight, innerWidth: e.target.innerWidth})
-    }
-
-    window.addEventListener('resize', handleResize);
-    return () => window.removeEventListener('resize', handleResize);
-  }, []);
-
+  
   return (
     <Headroom className="w-[100vw] relative z-[100]">
       <nav
@@ -58,14 +33,14 @@ const Header = () => {
             <Image className="w-fit" src={MainLogo} alt={'logo'}/>
           </Link>
         </div>
-        {windowDimensions.innerWidth > 1100 && <Navbar/>}
+        <Navbar/>
         <div className="flex-1 flex items-center justify-end gap-x-4">
           <Link href={'/login'}>
             <div className="flex justify-start items-center hover:text-red-600 transition-all duration-500">
               <CgProfile size={30}/>
             </div>
           </Link>
-          {windowDimensions.innerWidth > 1100 && windowDimensions.innerWidth !== 0 ? (<Link href={'/contact'}>
+          <Link href={'/contact'} className="max-[1100px]:hidden">
             <div className="flex justify-start items-center p-[5px] w-fit border-[#5b5b5b] border-2 rounded-md">
               <motion.div
                 whileHover={{rotate: 180}}
@@ -75,14 +50,14 @@ const Header = () => {
               </motion.div>
               <p className="mx-3 font-bold text-[14px]">JOIN CLASS NOW</p>
             </div>
-          </Link>) : (
-            <div className="h-full w-fit flex justify-center items-center">
-              <button onClick={() => setVisible(!visible)}><CiMenuFries size={30} color={'white'} /></button>
-            </div>)}
+          </Link>
+          <div className="h-full w-fit justify-center items-center max-[1100px]:flex hidden">
+            <button onClick={() => setVisible(!visible)}><CiMenuFries size={30} color={'white'}/></button>
+          </div>
         </div>
       </nav>
       <AnimatePresence>
-        {visible && <NavbarMobile setVisible={setVisible} value={true} />}
+        {visible && <NavbarMobile setVisible={setVisible} value={true}/>}
       </AnimatePresence>
     </Headroom>
   );

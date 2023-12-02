@@ -13,7 +13,7 @@ const links = [
 
 const Navbar = () => {
   return (
-    <div className="flex-1 flex items-center justify-center gap-x-4">
+    <div className="flex-1 flex items-center justify-center gap-x-4 max-[1100px]:hidden">
       {links.map(link => (
         <Link key={link.name} href={link.link}><p
           className="hover:text-red-600 transition-all duration-500">{link.name}</p></Link>
