@@ -79,7 +79,7 @@ const Page = () => {
                 <option value="7">Karate</option>
                 <option value="7">Cycling</option>
               </select>
-              <textarea className="w-full h-[200px] px-6 py-2 text-[14px]" required={true} placeholder={'Message *'}/>
+              <textarea className="w-full max-h-[200px] px-6 py-2 text-[14px]" required={true} placeholder={'Message *'}/>
               <button className="w-[150px] bg-[#ff003c] text-white py-2 rounded-xl text-[14px]">Send Message</button>
             </form>
           </div>
