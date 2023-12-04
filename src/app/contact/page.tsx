@@ -9,7 +9,7 @@ const Page = () => {
         <p className="text-4xl font-bold text-white">Contact</p>
       </div>
       <div className="flex w-[100vw] justify-center items-center mt-6">
-        <div className="max-w-[1000px] w-full flex gap-x-6">
+        <div className="max-w-[1000px] w-full flex gap-x-6 max-[900px]:flex-col max-[900px]:px-12 max-sm:px-2">
           <div className="flex-1 flex flex-col gap-y-7">
             <p className="text-[36px] font-bold">We are here for help you! To Shape Your Body.</p>
             <p className="text-[16px] text-black/70">At Gymate, we are dedicated to helping you achieve the body of your
