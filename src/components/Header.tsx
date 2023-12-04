@@ -23,7 +23,7 @@ const links = [
 
 const Header = () => {
   const [visible, setVisible] = useState(false);
-  
+
   return (
     <Headroom className="w-[100vw] relative z-[100]">
       <nav
