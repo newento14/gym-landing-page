@@ -17,28 +17,28 @@ const Page = () => {
               nutrition plan that helps you reach your specific goals.</p>
             <div className="grid grid-cols-2 grid-rows-2 gap-y-7 min620:grid-cols-1 min620:mx-auto">
               <div>
-                <p className="font-bold text-[22px]">New York City, USA</p>
+                <p className="font-bold text-[18px]">New York City, USA</p>
                 <div className="h-[4px] w-[25%] bg-[#ff003c] rounded-xl"></div>
                 <p className="text-[14px] text-black/70 mt-4">85 Briston Mint Street,
                   <br/>
                   London, E1 8LG, USA</p>
               </div>
               <div>
-                <p className="font-bold text-[22px]">Opening Hours</p>
+                <p className="font-bold text-[18px]">Opening Hours</p>
                 <div className="h-[4px] w-[25%] bg-[#ff003c] rounded-xl"></div>
                 <p className="text-[14px] text-black/70 mt-4">Mon to Fri: 7:30 am — 1:00 am
                   <br/>
                   Mon to Fri: 7:30 am — 1:00 am</p>
               </div>
               <div>
-                <p className="font-bold text-[22px]">Information</p>
+                <p className="font-bold text-[18px]">Information</p>
                 <div className="h-[4px] w-[25%] bg-[#ff003c] rounded-xl"></div>
                 <p className="text-[14px] text-black/70 mt-4">+800-123-4567
                   <br/>
                   gymat@gymail.com</p>
               </div>
               <div>
-                <p className="font-bold text-[22px]">Follow Us On</p>
+                <p className="font-bold text-[18px]">Follow Us On</p>
                 <div className="h-[4px] w-[25%] bg-[#ff003c] rounded-xl"></div>
                 <div className="flex gap-x-2 my-4">
                   <div
