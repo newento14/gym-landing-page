@@ -32,7 +32,7 @@ const HeroBlocks = () => {
           className="flex flex-col pt-12 justify-start items-center gap-y-4 rounded-bl-3xl rounded-tr-3xl bg-white py-6 px-10 max-w-[330px] min-h-[300px] shadow-2xl z-10 text-center hover:bg-[url(../../public/block-bg.jpg)] hover:text-white">
           <Image src={Workout} alt={'workout'}/>
           <p className="font-bold text-xl">WORKOUT</p>
-          <p className="text-sm">With a variety of workouts to choose from, you'll have everything you need to get into
+          <p className="text-sm">With a variety of workouts to choose from, you&apos;ll have everything you need to get into
             the best shape of your life.</p>
         </div>
         <div
